@@ -3,6 +3,6 @@ Flask-Cors
 gunicorn
 numpy
 Pillow
-tensorflow
+tensorflow-cpu
 matplotlib
 werkzeug
