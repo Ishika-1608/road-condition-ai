@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Road Condition AI</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Updated link for Flask static files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <!-- Using FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -55,6 +56,7 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Updated link for Flask static files -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
